@@ -1,0 +1,36 @@
+.h2{
+    color:rgb(79, 88, 88);
+}
+.datecol{
+    display:flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.dater:hover{
+    cursor: pointer;
+
+}
+.dater{
+    background-color:#FFFFFF;
+    display: flex;
+    flex-direction: row;
+    color:rgb(116, 138, 138);
+    width:300px;
+    justify-content:space-around;
+    height: 40px;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: bold;
+    border-bottom: 0.1px solid rgba(141, 114, 114, 0.281);
+}
+.ate{
+    width:300px;
+    background-color: #142A51;
+   
+}
+input[type="date"]
+{
+    background-color: #e6e8ec;
+    color: chartreuse;
+    width:200px;
+}

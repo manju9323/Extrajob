@@ -1,0 +1,114 @@
+.goo{
+    display: flex;
+    flex-direction:column;
+    justify-items:space-evenly;
+   margin-top: 50px;
+   
+}
+.check:hover{
+    background-color: #1C3663 ;
+}
+
+.check{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding-right: 10px;
+
+
+}
+.container{
+    background-color:#F0F5FB;
+    display: flex;
+    flex-direction: row;
+    color:rgb(116, 138, 138);
+    width:300px;
+    justify-content:space-around;
+    height: 40px;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: bold;
+
+  
+   
+    
+   
+   
+    
+}
+.h2{
+    color:rgb(116, 138, 138);
+    font-style: initial;
+}
+.employee{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.outer{
+    background-color:#142A51;
+    color:#fff;
+    border-radius: 10px;
+    height: fit-content;
+    width:300px;
+    position: absolute;
+    top:165px
+}
+.outer:hover{
+     background-color:#142A51;
+}
+.outer2{
+    background-color:#142A51;
+    color:#fff;
+    border-radius: 10px;
+    height: fit-content;
+    top:255px;
+    width:300px;
+    position: absolute;
+}
+.outer3{
+    background-color:#142A51;
+    color:#fff;
+    border-radius: 10px;
+    height: fit-content;
+    top:345px;
+    width:300px;
+    position: absolute;
+}
+.inner{
+  
+    padding:15px;
+    border-radius: 10px;
+    color: rgb(246, 250, 246);
+    text-align: start;
+    display: flex;
+    width:290px;
+    justify-content:space-between;
+}
+
+.check:hover{
+    cursor: pointer;
+}
+.search{
+    display: flex;
+    align-items:center;
+    text-align: center;
+    background-color:#1C3663;
+    padding:10px;
+    border-radius: 10px;
+    color: rgb(246, 250, 246);
+    text-align: start;
+    border:none;
+   
+    justify-content: space-between;
+}
+.search :hover{
+    cursor: pointer;
+}
+.inner:hover{
+    cursor: pointer;
+}
+.container:hover{
+    cursor: pointer;
+}
